@@ -95,3 +95,50 @@ For significant changes, please open an issue first and discuss your approach. T
 ## 6. Commit Message Style
 
 We use a simple conventional commit format:
+
+type: short description in present tense
+
+Types:
+
+- `feat:` — a new feature
+- `fix:` — a bug fix
+- `docs:` — documentation changes only
+- `style:` — formatting, no logic change
+- `refactor:` — code restructure, no behaviour change
+- `test:` — adding or updating tests
+- `chore:` — build, config, dependency updates
+
+Examples:
+feat: add dark mode support to admin dashboard
+
+fix: resolve PHP warning on plugin activation
+
+docs: update installation steps in README
+
+---
+
+## 7. Code Style
+
+Each repository will have its own code style configuration. Generally:
+
+- PHP: follow WordPress Coding Standards
+- JavaScript: use ESLint with the project config
+- CSS: follow BEM naming where applicable
+- Always use meaningful variable and function names
+- Comment your code where the why is not obvious from the what
+
+---
+
+## 8. For Nivotics Academy Learners
+
+If you are a learner from Nivotics Academy, your contributions to Nivotics-Lab repositories count as real, verifiable portfolio work. When submitting your first pull request:
+
+- Mention in the PR description that you are a Nivotics Academy learner
+- Link to your Academy profile or cohort if applicable
+- Feel free to ask questions — every maintainer here has been a learner too
+
+We review Academy learner PRs with that context in mind and will always take the time to give constructive feedback, whether or not the PR is merged.
+
+---
+
+Questions about contributing? Reach out at nivoticslab@gmail.com.
